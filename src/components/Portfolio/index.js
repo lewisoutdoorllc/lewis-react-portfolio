@@ -1,7 +1,7 @@
 import React from 'react';
 import coverImage from '../../assets/cover/cover-image.jpg';
 
-function About() {
+function Portfolio() {
   return (
     <section className="my-5">
       <h1 id="about">A Little About Myself!</h1>
@@ -23,4 +23,4 @@ function About() {
 
 
 
-export default About;
+export default Portfolio;
