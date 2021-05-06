@@ -1,7 +1,9 @@
 import React from "react";
 import ReactDOM from "react-dom";
-// import './index.css';
-import './stylePortfolio.css';
 import App from "./App";
+import './stylePortfolio.css';
+import './styleFooter.css';
+// import './styleContact.css';
+// import './index.css';
 
 ReactDOM.render(<App />, document.getElementById("root"));

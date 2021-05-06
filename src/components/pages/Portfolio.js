@@ -44,9 +44,9 @@ function Portfolio(props) {
         </ul>
       </div>
       {/* The onClick method will invoke the removeFriends function passing through the value of props.id  */}
-      {/* <span onClick={() => props.removeFriend(props.id)} className="remove">
+      <span onClick={() => props.removeFriend(props.id)} className="remove">
         𝘅
-      </span> */}
+      </span>
     </div>
   );
 }
