@@ -1,0 +1,12 @@
+.jumbotron {
+    background-image: url("./background_Moon.jpg");
+    background-size: cover;
+    height: 250px;
+    /* color: aqua; */
+    /* font-weight: 200; */
+}
+
+.header-container {
+    color: rgb(73, 226, 43);
+    font-weight: bolder;
+}

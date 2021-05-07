@@ -1,10 +1,12 @@
 import React from "react";
 import PortfolioContainer from "./components/PortfolioContainer";
-import Footer from './components/Footer';
+import Footer from './components/Footer/index';
+import Header from "./components/Header";
 
 const App = () => {
     return (
         <div>
+            <Header/>
             <PortfolioContainer />
             <Footer />
         </div>
