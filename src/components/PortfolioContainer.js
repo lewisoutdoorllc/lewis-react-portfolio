@@ -24,7 +24,7 @@ function PortfolioContainer() {
       case 'Portfolio':
         return (
           <Wrapper>
-            <h1 className="title">Friends List</h1>
+            <h1 className="title">Portfolio</h1>
             {/* Map through 'friendsList' and render a 'FriendCard' for each friend */}
             {/* Pass in the 'removeFriend()' method and each property of a friend */}
             {friendsList.map(friend => (
