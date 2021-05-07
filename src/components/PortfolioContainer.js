@@ -11,11 +11,11 @@ import friends from '../friends.json';
 function PortfolioContainer() {
   // Using useState, set the default value for currentPage to 'About'
   const [currentPage, handlePageChange] = useState('About Me');
-  const [friendsList, setFriendsList] = useState(friends);
-  const removeFriend = id => {
-    const newList = friendsList.filter(friend => friend.id !== id);
-    setFriendsList(newList);
-  };
+  const [friendsList] = useState(friends);
+  // const removeFriend = id => {
+  //   const newList = friendsList.filter(friend => friend.id !== id);
+  //   setFriendsList(newList);
+  // };
   // The renderPage method uses a switch statement to render the appropriate current page
   const renderPage = () => {
     switch (currentPage) {
@@ -29,13 +29,12 @@ function PortfolioContainer() {
             {/* Pass in the 'removeFriend()' method and each property of a friend */}
             {friendsList.map(friend => (
               <Portfolio
-                removeFriend={removeFriend}
                 id={friend.id}
                 key={friend.id}
                 name={friend.name}
                 image={friend.image}
-                occupation={friend.occupation}
-                location={friend.location}
+                gitHub={friend.gitHub}
+                app={friend.app}
               />
             ))}
           </Wrapper>
