@@ -6,7 +6,8 @@ function Portfolio(props) {
   return (
     <div className="card">
       <div className="img-container">
-        <img alt={props.name} src={props.image} />
+        {/* <img alt={props.name} src={props.image} /> */}
+        <img src={require(`../Portfolio/img/${props.image}.jpeg`)} alt= {props.name}  />
       </div>
       <div className="card-body content">
         <h5 className="card-title">{props.name}</h5>
