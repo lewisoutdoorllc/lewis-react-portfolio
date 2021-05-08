@@ -93,7 +93,7 @@ function Contact() {
               <div className='row'>
                 <div className='col-med-12'>
                   <div className='md-form'>
-                    <textarea placeholder="Message" className="form-control md-textarea" type='text' id='message' name="message" rows="2" defaultValue={message} onBlur={handleChange} />
+                    <textarea placeholder="Message" className="form-control md-textarea" type='text' id='message' name="message" rows="6" defaultValue={message} onBlur={handleChange} />
                     {/* <label htmlFor="message">Message</label> */}
                   </div>
                   {errorMessage && (

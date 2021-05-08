@@ -1,0 +1,12 @@
+#resume-button {
+    border-radius: 10px;
+    border-width: 1px;
+    box-shadow: 0px 0px 20px 2px;
+    color: rgba(0, 13, 255, 0.217);
+    background-color: rgba(100, 92, 108, 0.387);
+ transition: transform 1s;
+}
+
+#resume-button:hover {
+   transform: scale(1.25);
+}
