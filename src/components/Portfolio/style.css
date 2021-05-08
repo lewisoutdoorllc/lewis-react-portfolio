@@ -7,63 +7,74 @@
 }
 
 .card {
-    background: #fff;
-    border-radius: 2px;
-    height: 325px;
-    margin: 1rem;
-    position: relative;
-    width: 325px;
-    box-shadow: 0 3px 6px #999, 0 3px 6px #999;
-    text-align: left;
-  }
-  
-  .card > .img-container {
-    height: 60%;
-    overflow: hidden;
-    text-align: center;
-    background:#6CADDC;
-  }
-  .card > .img-container > img {
-    width: 60%
-  }
-  
-  .card > .content {
-    padding-left: 1rem;
-    padding-right: 1rem;
-    font-size: 15px;
-  }
-  
-  .card > .content > ul {
-    list-style-type: none;
-  }
-  
-  .card > .content > ul > li {
-    margin-top: 18px;
-  }
-
-  .card-title {
-    display: flex;
-    justify-content: center;
-  }
-
-  .btn {
-    display: flex;
-    justify-content: center;
-  }
-
-  .btn-primary {
-    color: #fff;
-    background-color: #007bff;
-    border-color: #007bff;
-    display: flex;
-    justify-content: center;
-    max-width: 10vw;
-    margin: 5px;
+  background: #fff;
+  border-radius: 2px;
+  height: 325px;
+  margin: 1rem;
+  position: relative;
+  width: 325px;
+  box-shadow: 0 3px 6px #999, 0 3px 6px #999;
+  /* text-align: left; */
 }
-  
 
+.card > .img-container {
+  height: 60%;
+  overflow: hidden;
+  text-align: center;
+  background: #6caddc;
+}
+.card > .img-container > img {
+  width: 60%;
+}
 
-  .portfolio-icons {
-    height: 25px;
-    width: 25px;
-  }
+.card > .content {
+  padding-left: 1rem;
+  padding-right: 1rem;
+  font-size: 15px;
+  justify-content: center;
+  flex-wrap: wrap;
+  display: grid;
+  /* margin-bottom: 5px; */
+}
+
+/* .card > .content > ul { */
+  /* list-style-type: none; */
+/* } */
+
+/* .card > .content > ul > li { */
+  /* margin-top: 18px; */
+/* } */
+
+/* .card-title { */
+  /* display: flex; */
+  /* justify-content: center; */
+/* } */
+
+/* .btn { */
+  /* display: flex; */
+  /* justify-content: center; */
+/* } */
+
+/* .btn-primary { */
+  /* color: #fff; */
+  /* background-color: #007bff; */
+  /* border-color: #007bff; */
+  /* display: flex; */
+  /* justify-content: center; */
+  /* max-width: 10vw; */
+  /* margin: 5px; */
+/* } */
+#portfolio-btn {
+  display: flex;
+  justify-self: center;
+}
+#portfolio-btn :hover {
+  height: 30px;
+  width: 30px;
+  box-shadow: 0px 0px 15px 0px #0c0b0b;
+}
+
+.portfolio-icons {
+  height: 25px;
+  width: 25px;
+}

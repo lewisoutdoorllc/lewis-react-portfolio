@@ -56,9 +56,8 @@ function Contact() {
     <main>
       <section className='mb-4 p-5'>
 
-        <h2 className="h1-responsive font-weight-bold text-center my-4">Contact us</h2>
-        <p className="text-center w-responsive mx-auto mb-5">Do you have any questions? Please do not hesitate to contact us directly. Our team will come back to you within
-        a matter of hours to help you.</p>
+        <h2 className="h1-responsive font-weight-bold text-center my-4">Contact Me!</h2>
+        <p className="text-center w-responsive mx-auto mb-5">Do you have any questions? Please do not hesitate to contact me directly.</p>
 
 
         <div className='row'>
@@ -114,15 +113,15 @@ function Contact() {
           <div className="col-md-3 text-center">
             <ul className="list-unstyled mb-0">
               <li><i className="fas fa-map-marker-alt fa-2x"></i>
-                <p>San Francisco, CA 94126, USA</p>
+                <p>Oviedo, Fl 32765, USA</p>
               </li>
 
               <li><i className="fas fa-phone mt-4 fa-2x"></i>
-                <p>+ 01 234 567 89</p>
+                <p>(407)792-9470</p>
               </li>
 
               <li><i className="fas fa-envelope mt-4 fa-2x"></i>
-                <p>contact@mdbootstrap.com</p>
+                <p>lewisoutdoorllc@gmail.com</p>
               </li>
             </ul>
           </div>

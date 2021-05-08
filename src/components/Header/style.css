@@ -2,6 +2,7 @@
     background-image: url("./background_Moon.jpg");
     background-size: cover;
     height: 250px;
+    margin-bottom: 0;
     /* color: aqua; */
     /* font-weight: 200; */
 }

@@ -12,8 +12,8 @@ function Portfolio(props) {
       <div className="card-body content">
         <h5 className="card-title">{props.name}</h5>
         {/* <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p> */}
-        <a href={props.gitHub} className="btn btn-primary"><AiFillGithub className='portfolio-icons' /></a>
-        <a href={props.app} className="btn btn-primary"><AiFillAppstore className='portfolio-icons' /></a>
+        <a href={props.gitHub} id='portfolio-btn' className="btn"><AiFillGithub className='portfolio-icons' /></a>
+        <a href={props.app} id='portfolio-btn' className="btn"><AiFillAppstore className='portfolio-icons' /></a>
       </div>
 
     </div>
