@@ -5,13 +5,13 @@ import Resume from './Resume/index';
 import Portfolio from './Portfolio';
 import Contact from './Contact';
 import Wrapper from './Wrapper';
-// import friends from '../friends.json';
+import friends from '../components/PortfolioProjects/friends.json';
 
 
 function PortfolioContainer() {
   // Using useState, set the default value for currentPage to 'About'
   const [currentPage, handlePageChange] = useState('About Me');
-  // const [friendsList] = useState(friends);
+  const [friendsList] = useState(friends);
 
   // The renderPage method uses a switch statement to render the appropriate current page
   const renderPage = () => {
@@ -22,8 +22,8 @@ function PortfolioContainer() {
         return (
           <Wrapper>
             <h1 className="title">Portfolio</h1>
-            <Portfolio />
-            {/* {friendsList.map(friend => (
+            {/* <Portfolio /> */}
+            {friendsList.map(friend => (
               <Portfolio
                 id={friend.id}
                 key={friend.id}
@@ -32,7 +32,7 @@ function PortfolioContainer() {
                 gitHub={friend.gitHub}
                 app={friend.app}
               />
-            ))} */}
+            ))}
           </Wrapper>
         );
       case 'Contact':
