@@ -5,17 +5,14 @@ import Resume from './Resume/index';
 import Portfolio from './Portfolio';
 import Contact from './Contact';
 import Wrapper from './Wrapper';
-import friends from '../friends.json';
+// import friends from '../friends.json';
 
 
 function PortfolioContainer() {
   // Using useState, set the default value for currentPage to 'About'
   const [currentPage, handlePageChange] = useState('About Me');
-  const [friendsList] = useState(friends);
-  // const removeFriend = id => {
-  //   const newList = friendsList.filter(friend => friend.id !== id);
-  //   setFriendsList(newList);
-  // };
+  // const [friendsList] = useState(friends);
+
   // The renderPage method uses a switch statement to render the appropriate current page
   const renderPage = () => {
     switch (currentPage) {
@@ -25,9 +22,8 @@ function PortfolioContainer() {
         return (
           <Wrapper>
             <h1 className="title">Portfolio</h1>
-            {/* Map through 'friendsList' and render a 'FriendCard' for each friend */}
-            {/* Pass in the 'removeFriend()' method and each property of a friend */}
-            {friendsList.map(friend => (
+            <Portfolio />
+            {/* {friendsList.map(friend => (
               <Portfolio
                 id={friend.id}
                 key={friend.id}
@@ -36,7 +32,7 @@ function PortfolioContainer() {
                 gitHub={friend.gitHub}
                 app={friend.app}
               />
-            ))}
+            ))} */}
           </Wrapper>
         );
       case 'Contact':
@@ -57,3 +53,43 @@ function PortfolioContainer() {
 }
 
 export default PortfolioContainer;
+
+// import React from 'react';
+// import { useState } from 'react';
+// import Header from "./components/Header"
+// import About from "./components/About"
+// import Project from "./components/Project"
+// import Contact from "./components/Contact"
+// import Footer from "./components/Footer"
+// import Resume from "./components/Resume"
+
+// function App() {
+//   const [currentPage, handlePageChange] = useState('');
+
+//   const renderPage = () => {
+//     switch (currentPage) {
+//       case '/#about':
+//         return <About />;
+//       case '/#portfolio':
+//         return <Project />;
+//       case '/#contact':
+//         return <Contact />;
+//         case '/#resume':
+//           return <Resume />;
+//       default:
+//         return <About />;
+//     }
+//   };
+
+//   return (
+//     <div>
+//       <Header currentPage={currentPage} handlePageChange={handlePageChange}/>
+//       <main>
+//         {renderPage(currentPage)}
+//       </main>
+//       <Footer />
+//     </div>
+//   );
+// }
+
+// export default App;
