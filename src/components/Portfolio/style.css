@@ -57,22 +57,11 @@
     border-color: #007bff;
     display: flex;
     justify-content: center;
-    /* max-width: 12vw; */
+    max-width: 10vw;
     margin: 5px;
 }
   
-  /* .card > .remove {
-    color: #ff1744;
-    font-size: 48px;
-    position: absolute;
-    top: -20px;
-    right: 5px;
-    cursor: pointer;
-  }
-  
-  .card > .remove:hover {
-    color: #d50000;
-  } */
+
 
   .portfolio-icons {
     height: 25px;
