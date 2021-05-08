@@ -2,51 +2,44 @@
     {
         "id": 1,
         "name": "React Portfolio",
-        "image": "/assets/portfolioImages/react.jpeg",
+        "image": "/assets/portfolioImages/react-ss.jpg",
         "gitHub": "https://github.com/lewisoutdoorllc/lewis-react-portfolio",
         "app": "https://github.com/lewisoutdoorllc/lewis-react-portfolio"
     
       },
       {
         "id": 2,
-        "name": "Mr. Krabs",
-        "image": "https://vignette3.wikia.nocookie.net/vsbattles/images/8/80/Mr._Krabs.png/revision/latest?cb=20150919162131",
-        "occupation": "Restaurant Owner",
-        "location": "A Giant Anchor"
+        "name": "PWA Budget Tracker",
+        "image": "/assets/portfolioImages/pwa-budget-tracker-ss.png",
+        "gitHub": "https://github.com/lewisoutdoorllc/PWA_budget_tracker",
+        "app": "https://lewis-pwa-budget-tracker.herokuapp.com/"
       },
       {
         "id": 3,
-        "name": "Squidward",
-        "image": "https://vignette2.wikia.nocookie.net/fictionalcharacters/images/a/ac/Squidward.png/revision/latest?cb=20131121012626",
-        "occupation": "Cashier",
-        "location": "An Easter Island Head"
+        "name": "Social Network API",
+        "image": "/assets/portfolioImages/socialNetworkApi-ss.png",
+        "gitHub": "https://github.com/lewisoutdoorllc/lewis_socialNetwork_API",
+        "app": "https://drive.google.com/file/d/1Y94Vg-X3X4IRICFg5aFIbelyOt01wqdb/view"
       },
       {
         "id": 4,
-        "name": "Dexter",
-        "image": "https://s-media-cache-ak0.pinimg.com/originals/fe/32/49/fe32495d45283cd6860ae122f0aeaad9.png",
-        "occupation": "Boy Genius",
-        "location": "A Secret Laboratory"
+        "name": "Sports Buzz",
+        "image": "/assets/portfolioImages/sportsbuzz-ss.png",
+        "gitHub": "https://github.com/mrhumpherys/social-sports",
+        "app": "https://sports-buzz.herokuapp.com/"
       },
       {
         "id": 5,
-        "name": "Courage",
-        "image": "https://vignette4.wikia.nocookie.net/vsbattles/images/3/39/Courage-0.png/revision/latest?cb=20160719055423",
-        "occupation": "A Cowardly Dog",
-        "location": "Nowhere, Kansas"
-      },
-      {
-        "id": 5,
-        "name": "Courage",
-        "image": "https://vignette4.wikia.nocookie.net/vsbattles/images/3/39/Courage-0.png/revision/latest?cb=20160719055423",
-        "occupation": "A Cowardly Dog",
-        "location": "Nowhere, Kansas"
+        "name": "Tech Blog",
+        "image": "/assets/portfolioImages/tech_blog.gif",
+        "gitHub": "https://github.com/lewisoutdoorllc/tech-blog",
+        "app": "https://stark-stream-49625.herokuapp.com/"
       },
       {
         "id": 6,
-        "name": "Doug Funnie",
-        "image": "https://vignette1.wikia.nocookie.net/doug/images/3/3b/Doug001.gif/revision/latest?cb=20110807170511",
-        "occupation": "Student",
-        "location": "Bluffington"
+        "name": "Team Building Generator",
+        "image": "/assets/portfolioImages/screenshot-team-generator.ss.png",
+        "gitHub": "https://github.com/lewisoutdoorllc/team-building-generator",
+        "app": "https://drive.google.com/file/d/1iv6y53L0LdPQElbOSg9qw-Rpd4VOxpVt/view"
       }
     ]
