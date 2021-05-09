@@ -17,28 +17,28 @@
       {
         "id": 3,
         "name": "Social Network API",
-        "image": "/assets/portfolioImages/socialNetworkApi-ss.png",
+        "image": "./assets/portfolioImages/socialNetworkApi-ss.png",
         "gitHub": "https://github.com/lewisoutdoorllc/lewis_socialNetwork_API",
         "app": "https://drive.google.com/file/d/1Y94Vg-X3X4IRICFg5aFIbelyOt01wqdb/view"
       },
       {
         "id": 4,
         "name": "Sports Buzz",
-        "image": "/assets/portfolioImages/sportsbuzz-ss.png",
+        "image": "./assets/portfolioImages/sportsbuzz-ss.png",
         "gitHub": "https://github.com/mrhumpherys/social-sports",
         "app": "https://sports-buzz.herokuapp.com/"
       },
       {
         "id": 5,
         "name": "Tech Blog",
-        "image": "/assets/portfolioImages/tech_blog.gif",
+        "image": "./assets/portfolioImages/tech_blog.gif",
         "gitHub": "https://github.com/lewisoutdoorllc/tech-blog",
         "app": "https://stark-stream-49625.herokuapp.com/"
       },
       {
         "id": 6,
         "name": "Team Building Generator",
-        "image": "/assets/portfolioImages/screenshot-team-generator.ss.png",
+        "image": "./assets/portfolioImages/screenshot-team-generator.ss.png",
         "gitHub": "https://github.com/lewisoutdoorllc/team-building-generator",
         "app": "https://drive.google.com/file/d/1iv6y53L0LdPQElbOSg9qw-Rpd4VOxpVt/view"
       }
