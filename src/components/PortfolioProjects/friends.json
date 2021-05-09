@@ -2,7 +2,7 @@
     {
         "id": 1,
         "name": "React Portfolio",
-        "image": "/assets/portfolioImages/react-ss.jpg",
+        "image": "./assets/portfolioImages/react-ss.jpg",
         "gitHub": "https://github.com/lewisoutdoorllc/lewis-react-portfolio",
         "app": "https://github.com/lewisoutdoorllc/lewis-react-portfolio"
     
