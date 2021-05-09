@@ -4,7 +4,7 @@ import headShot from './img/head-shot.jpg';
 const About = () => (
   <div className='p-3'> 
     <img src= {headShot} className='head-shot' alt='' />
-    <h3 className='pl-1'>Cody Lewis</h3>
+    <h3 className='pl-1 pt-2 pb-4'>Cody Lewis</h3>
     <h1>A Little About Me</h1>
     <p>
       Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque velit, lobortis ut magna
