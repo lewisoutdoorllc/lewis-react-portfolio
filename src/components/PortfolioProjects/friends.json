@@ -10,7 +10,7 @@
       {
         "id": 2,
         "name": "PWA Budget Tracker",
-        "image": "/assets/portfolioImages/pwa-budget-tracker-ss.png",
+        "image": "./assets/portfolioImages/pwa-budget-tracker-ss.png",
         "gitHub": "https://github.com/lewisoutdoorllc/PWA_budget_tracker",
         "app": "https://lewis-pwa-budget-tracker.herokuapp.com/"
       },
