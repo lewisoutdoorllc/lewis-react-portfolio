@@ -17,11 +17,13 @@ ul.social-links {
     /* padding: 10px; */
     font-size: 30px;
     list-style-type: none;
-    /* display: flex; */
-    justify-content: center;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 0;
 }
 
 ul.copyright {
     font-size: 20px;
     list-style-type: none;
+    padding-left: 0;
 }

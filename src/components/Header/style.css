@@ -1,11 +1,16 @@
 .jumbotron {
     background-image: url('./img/letter-word-portfolio.jpg');
+
     background-size: 100%;
     background-repeat: no-repeat;
-    height: 350px;
+    min-height: 25vh;
+    width: 100%;
 }
-
-.header-container {
-    color: rgb(73, 226, 43);
-    font-weight: bolder;
+.container {
+    margin-left: 0;
+}
+h1.display-4, p.lead {
+    color: rgb(46 226 43 / 58%);
+    max-height: 10vh;
+    max-width: 50vw;
 }
