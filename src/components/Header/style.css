@@ -3,7 +3,7 @@
 
     background-size: 100%;
     background-repeat: no-repeat;
-    min-height: 25vh;
+    min-height: 20vh;
     width: 100%;
 }
 .container {
@@ -14,3 +14,9 @@ h1.display-4, p.lead {
     max-height: 10vh;
     max-width: 50vw;
 }
+
+@media only screen and (max-width: 992px) {
+    .jumbotron {
+ min-height: 18vh;
+    }
+  }
