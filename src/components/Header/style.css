@@ -1,10 +1,8 @@
 .jumbotron {
-    background-image: url("./background_Moon.jpg");
-    background-size: cover;
-    height: 250px;
-    margin-bottom: 0;
-    /* color: aqua; */
-    /* font-weight: 200; */
+    background-image: url('./img/letter-word-portfolio.jpg');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 350px;
 }
 
 .header-container {

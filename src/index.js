@@ -6,6 +6,7 @@ import './components/Footer/style.css';
 import './components/Contact/style.css';
 import './components/Header/style.css';
 import './components/Resume/style.css';
+import './components/About/style.css';
 import './index.css';
 
 ReactDOM.render(<App />, document.getElementById("root"));
