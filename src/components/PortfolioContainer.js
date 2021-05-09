@@ -54,42 +54,4 @@ function PortfolioContainer() {
 
 export default PortfolioContainer;
 
-// import React from 'react';
-// import { useState } from 'react';
-// import Header from "./components/Header"
-// import About from "./components/About"
-// import Project from "./components/Project"
-// import Contact from "./components/Contact"
-// import Footer from "./components/Footer"
-// import Resume from "./components/Resume"
 
-// function App() {
-//   const [currentPage, handlePageChange] = useState('');
-
-//   const renderPage = () => {
-//     switch (currentPage) {
-//       case '/#about':
-//         return <About />;
-//       case '/#portfolio':
-//         return <Project />;
-//       case '/#contact':
-//         return <Contact />;
-//         case '/#resume':
-//           return <Resume />;
-//       default:
-//         return <About />;
-//     }
-//   };
-
-//   return (
-//     <div>
-//       <Header currentPage={currentPage} handlePageChange={handlePageChange}/>
-//       <main>
-//         {renderPage(currentPage)}
-//       </main>
-//       <Footer />
-//     </div>
-//   );
-// }
-
-// export default App;

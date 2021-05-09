@@ -2,10 +2,11 @@ import React from "react";
 import headShot from './img/head-shot.jpg';
 
 const About = () => (
-  <div className='p-3'>
+  <div className='p-3'> 
     <img src= {headShot} className='head-shot' alt='' />
+    <h3 className='pl-1'>Cody Lewis</h3>
     <h1>A Little About Me</h1>
-    <>
+    <p>
       Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque velit, lobortis ut magna
       varius, blandit rhoncus sem. Morbi lacinia nisi ac dui fermentum, sed luctus urna tincidunt.
       Etiam ut feugiat ex. Cras non risus mi. Curabitur mattis rutrum ipsum, ut aliquet urna
@@ -14,7 +15,7 @@ const About = () => (
       Donec blandit est sed risus feugiat porttitor. Vestibulum molestie hendrerit massa non
       consequat. Vestibulum vitae lorem tortor. In elementum ultricies tempus. Interdum et malesuada
       fames ac ante ipsum primis in faucibus.
-    </>
+    </p>
   </div>
 );
 

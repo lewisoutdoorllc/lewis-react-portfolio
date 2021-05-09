@@ -6,7 +6,6 @@
     background-color: rgba(100, 92, 108, 0.387);
  transition: transform 1s;
 }
-
 #resume-button:hover {
    transform: scale(1.25);
 }

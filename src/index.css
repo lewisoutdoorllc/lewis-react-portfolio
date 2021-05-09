@@ -1,24 +1,17 @@
 .nav {
-    /* border-bottom: none; */
     max-width: 100%;
     justify-content: center;
 }
 .nav-pills .nav-link {
     border-radius: 10px;
 }
-
 .nav-pills .nav-link.active {
     background-color: rgba(101, 72, 128, 0.421);
     border-color: rgba(128, 255, 0, 0.768);
     box-shadow: 0px 0px 30px 0px;
     color: rgba(0, 13, 255, 0.632);
 }
-
 html body {
     background-color: rgba(202, 202, 202, 0.408);
-       /* background-color: rgba(8, 8, 8, 0.864); */
-}
+}   
 
-/* h1, h2, h3 {
-    color: white;
-} */
