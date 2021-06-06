@@ -41,5 +41,12 @@
         "image": "./assets/portfolioImages/screenshot-team-generator.ss.png",
         "gitHub": "https://github.com/lewisoutdoorllc/team-building-generator",
         "app": "https://drive.google.com/file/d/1iv6y53L0LdPQElbOSg9qw-Rpd4VOxpVt/view"
+      },
+      {
+        "id": 7,
+        "name": "Sneaker Bay",
+        "image": "./assets/portfolioImages/sneakerbay-snapshot.png",
+        "gitHub": "https://github.com/mrhumpherys/sneakerBay",
+        "app": "https://sneakerbay.herokuapp.com/"
       }
     ]
