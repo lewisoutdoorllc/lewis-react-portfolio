@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/lewis-react-portfolio/static/css/main.8be8d5e0.chunk.css",
+    "main.js": "/lewis-react-portfolio/static/js/main.4aba131a.chunk.js",
+    "main.js.map": "/lewis-react-portfolio/static/js/main.4aba131a.chunk.js.map",
+    "runtime-main.js": "/lewis-react-portfolio/static/js/runtime-main.91ead205.js",
+    "runtime-main.js.map": "/lewis-react-portfolio/static/js/runtime-main.91ead205.js.map",
+    "static/js/2.0f9d09ae.chunk.js": "/lewis-react-portfolio/static/js/2.0f9d09ae.chunk.js",
+    "static/js/2.0f9d09ae.chunk.js.map": "/lewis-react-portfolio/static/js/2.0f9d09ae.chunk.js.map",
+    "index.html": "/lewis-react-portfolio/index.html",
+    "static/css/main.8be8d5e0.chunk.css.map": "/lewis-react-portfolio/static/css/main.8be8d5e0.chunk.css.map",
+    "static/js/2.0f9d09ae.chunk.js.LICENSE.txt": "/lewis-react-portfolio/static/js/2.0f9d09ae.chunk.js.LICENSE.txt",
+    "static/media/Lewis_Coding_Resume.52ae433d.PDF": "/lewis-react-portfolio/static/media/Lewis_Coding_Resume.52ae433d.PDF",
+    "static/media/head-shot.2eaedb59.jpg": "/lewis-react-portfolio/static/media/head-shot.2eaedb59.jpg",
+    "static/media/style.css": "/lewis-react-portfolio/static/media/letter-word-portfolio.077a1b1d.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.91ead205.js",
+    "static/js/2.0f9d09ae.chunk.js",
+    "static/css/main.8be8d5e0.chunk.css",
+    "static/js/main.4aba131a.chunk.js"
+  ]
+}
